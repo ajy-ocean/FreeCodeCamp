@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+#main {
+    background: url("https://wallpaperaccess.com/full/4476866.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 40px 0 10px 0;
+    color: #3D3B3B;
+}
+
+#title {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#description {
+    margin: 0 5px;
+    font-size: 1.125rem;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+main {
+    max-width: 700px;
+    margin: 10px auto;
+    background-color: rgba(31, 110, 15, 0.932);
+    border-radius: 5px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* form elements */
+
+form {
+    text-align: left;
+    color: white;
+}
+
+input, select, textarea {
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+fieldset input {
+    display: inline;
+    margin-bottom: 0;
+}
+
+fieldset legend {
+    margin-bottom: 10px;
+}
+
+form, ::placeholder, select {
+    font-size: 1.1rem;
+}
+
+input, select {
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 120px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.full-width {
+    width: 100%;
+}
+
+input[type = "radio"],  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: inherit;
+    background-color: gray;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
